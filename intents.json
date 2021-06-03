@@ -1,0 +1,260 @@
+
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you please mail us on info@codekaroyaaro.com", "Please give me more info", "Not sure I understand ,do call us on +91 8010996763"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through courses list", "Starter,Intermediate,Professional levels of courses", "Offering support for little coders, Live Interactive classes"],
+         "context": [""]
+        },
+        {"tag": "courses",
+         "patterns": ["Types of Courses","what courses do you provide?", "How many courses are provided?", "Give me a list of courses available", "List all courses suitable for my kid", "Which courses do help my kid","what basics do you teach at your platform?"],
+         "responses": ["WebDevelopment MobileAppDevelopment ArtificialIntelligence Pythonprogramming GameAppDevelopment"],
+         "context": [""]
+        },
+        {"tag": "coding",
+         "patterns": ["Why coding is important?", "Why should my kid learn coding?", "Why coding is essential?","Is coding required at the age of 7?","how does coding help for future careers","Does coding help in improving personality?",
+                    "Is coding required at the age of 8?" ,"How coding is effective?","Is coding hard to learn?"," How do you maintain the interest of a younger child in coding who likes to play a lot too?",
+                     "Is coding required at the age of 9?",
+                     "Is coding required at the age of 10?",
+                     "Is coding required at the age of 11?",
+                     "Is coding required at the age of 12?",
+                     "Is coding required at the age of 13?",
+                     "Is coding required at the age of 14?"," Won't be there any stress/health issues for my kid if he continuously code at this early stage?", "I want to have a look at the importance of coding", "Is coding needed?","Should the coding be taught at a younger age?","After seeing many ads of CodeKaroYaro my child has shown interest for coding.Is it good?","What is impact of coding on my child at this stage?" ],
+         "responses": ["Coding gives your child a competitive edge","Coding teaches persistence","Coding improves problem-solving skills","Coding improves creativity"],
+         "context": [""]
+        },
+        {"tag": "programming_language",
+         "patterns": ["What programing languages do you teach?","What programming language is suitable for my child to learn?", "What language is in trending?", "Which language does everyone expect a child to know?", "Which coding language is good to begin with?", "Guide us about the programming languages." ,"Can my child learn Java at your platform?","What coding languages do you teach?"],
+         "responses": ["This depends on the age of the child and if the child has prior knowledge of computer programming. Call to talk with our counselor to find out which course is most appropriate for your child."],
+         "context": [""]
+        },
+        {"tag": "change",
+         "patterns": ["Who should I contact to change my batch timing or teacher?","What if my kid wants to change the assigned teacher the batch?","My kid wants to have a change"],
+         "responses": ["For changing of Batch Timing or Teacher you need to contact your dedicated Academic Mentor."],
+         "context": [""]
+        },
+        {"tag": "course_enroll",
+         "patterns": ["How do we enroll?", "What are the ways to enroll to the course?", "ways to enroll", "I want to enroll", "Can I enroll?" ],
+         "responses": ["Choose Course which you want to enroll yourself.Fill the details Make your payment and enjoy CODING"],
+         "context": ["courses_levels"]
+        },
+        {"tag": "course_levels",
+         "patterns": [],
+         "responses": ["Loading starter,intermediate and professional courses..."],
+         "context": [""]
+        },
+        {"tag": "class_enroll",
+         "patterns": ["How do we enroll?", "What are the ways to enroll to the classes?", "ways to enroll to classes", "I want live classes", "Can I enroll to the classes?" ],
+         "responses": ["Choose ClassLevel which you want to enroll yourself.Fill the details Make your payment and enjoy CODING"],
+         "context": ["classes_levels"]
+        },
+         {"tag": "classes_levels",
+         "patterns": [],
+         "responses": ["Loading basic,starter and yearly plans..."],
+         "context": [""]
+        },
+        {"tag": "partners",
+         "patterns": ["Do you have any partners?", "Any corporate partners for the company?", "I want to know about your corporatepartners"  ],
+         "responses": ["Yes we do have partners like GreyKernel,FolksMotor and PLMNordic"],
+         "context": [""]
+        },
+        {"tag": "values",
+         "patterns": ["what values do your company have?","What are those values on your company is based on?","Company core values","how codekaroyaaro is better than byjus/other e-learning platforms?","what is importance of Computer Science Education for School children?"],
+         "responses": ["We provide better Technologies,innovations,project based learning,Entrepreneurship,DesignThinkingApproach,Experienced and friendly instructors"],
+         "context": [""]
+        },
+        {"tag": "statistics",
+         "patterns": ["Can you show us the statistics so far?","What do the company statistics say?","Testimonial statistics"],
+         "responses": ["10000+ students and 480000+ classes conducted"],
+         "context": [""]
+        },
+        {"tag": "courseprice",
+         "patterns": ["what are the prices for the courses?","May I know about the course pricing","Price for a course","what will the total cost of this course?"],
+         "responses": ["4500 INR for starter,8000 INR for intermediate and 12000 INR for professional"],
+         "context": [""]
+        },
+        {"tag": "liveclassesprice",
+         "patterns": ["what are the prices for the live classes?","May I know about the live classes pricing","Price for the live classes"],
+         "responses": ["2800 INR for basic,15360 INR for starter and 26880 INR for yearly plan"],
+         "context": [""]
+        },
+        {"tag": "coursecontents",
+         "patterns": ["what are the contents of the courses?","course contents","What does a course contain?"],
+         "responses": ["For 1-4th grades we have Scratch Programming, Dance With Coding, Coding With Kids,Artist Lab and for 5-10+ grades we have Introduction to programming languages,GameApp+MobileApp+Website"],
+         "context": [""]
+        },
+        {"tag": "liveclassescontents",
+         "patterns": ["what are the contents of the live classes?","live classes contents"],
+         "responses": ["We teach Introduction to programming languages,GameApp+MobileApp+Website"],
+         "context": [""]
+        },
+        {"tag": "difference",
+         "patterns": ["What is the difference between the various levels?","How levels are different?"],
+         "responses": ["The number of sessions and effectiveness of the course."],
+         "context": [""]
+        },
+        {"tag": "contact",
+         "patterns": ["How to contact the company?"," Is there any reduction in cost/price for ST/SC/OBC students?","How to change teacher?", "I want to collaborate with your company .Can you tell me the details of MD?","How do we give our feedback on my child's learning?", "Teacher contact no.","contact the company","How to reach out to the company?","Are demo classes available?","Are there any offline classes held by CodeKaroYaro?","Are there any doubt clearance session?","Where can I message or call for more details?","Talk to teacher","Live Classes information","Do you have financial aid services?"," What is the main way tutors will interact — email, video chats, phone calls?","What if we want to switch the course?","What if we want to change the course?"],
+         "responses": ["You can call us on +91 8010996763 or you can drop a mail on info@codekaroyaaro.com"],
+         "context": [""]
+        },
+        {"tag": "special",
+         "patterns": ["How advance is your company?","company specialities","What makes your company special from other companies?","How unique is your platform?","Does the platform provide better experience than the other platforms?","Why should we choose codekaroyaaro"],
+         "responses": ["Online Courses,Learn Anywhere,Expert Teacher,Get Certificate"],
+         "context": [""]
+        },
+        {"tag": "achievements",
+         "patterns": ["showcase student achievements","what did students develop during the courses","student works"],
+         "responses": ["AnimalSoundApp,DemonWarriorApp,VehicleSoundApp,AnimalFootballBattleGame,FlappyBirdGame"],
+         "context": [""]
+        },
+        {"tag": "offers",
+         "patterns": ["Are there any offers available for the professional course?","Are there any offers available for the intermediate course?","Are there any offers available for the starter course?","does a child get any concession in the fees if he/she is a merit student?"," Is there any discount for the courses ?"],
+         "responses": ["No such schemes as of now."],
+         "context": [""]
+        },
+        {"tag": "suggestions",
+         "patterns": ["What could be a better course for my child?","Could you suggest any of the coureses?","Can my kid become a software engineer after attending these courses?","How to convince my child to join a course?","How does the course help him to do other chores such as homework etc?","Does the platform provide better experience than the other platforms?","What is best course for my kid","Which language should our child learn first?"],
+         "responses": ["It completely depends on the age and interest of an individual.Students need to be guided properly.You can contact us regarding this."],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["How to convince my child to join a course?","How does the course help him to do other chores such as homework etc?","My child loves football rather than coding.How do you help me?","My child is lazy,doesn't finish his/her work","My child cannot operate a laptop.How do you help him/her"],
+         "responses": ["We teach a lot of things here.Visuals help to create an impact on an individual to understand the courses.A child needs to be explained about what he/she learns in an innovative way. Child needs a good exposure.He/she needs to develop interest in whatever they do.It helps them for the overall development and they can perform all other chores easily."],
+         "context": [""]
+        },
+        {"tag": "outcome",
+         "patterns": ["Can my child create an app on his own after finishing the course","how will my child will be benefited by this course?","Can my child build a game on his/her own?","Can my child write a program on his/her own?","Will he make an app at the end of the course?"],
+         "responses": ["Ofcourse,a student can create/build apps with great ease after they finish their course."],
+         "context": [""]
+        },
+        {"tag": "size",
+         "patterns": ["How many students in a class?","What is the strength of the class?","How do you divide many students across the same course?"," How many children are there per batch?"],
+         "responses": ["It depends on the number of admissions we get.We make sure that an individual can learn effectively with all the available resources.Keeping in my mind the betterment of students and mentors we will divide the students in an efficient way."],
+         "context": [""]
+        },
+        {"tag": "time",
+         "patterns": ["How much time is allocated for a class?","What is the duration of a class?","How many hours do you teach everyday?","How the time is allocated for the courses","what are most regular timings?","How the distribution of the classes are made?"," How long is course promised for kid to learn the programming?"],
+         "responses": ["It depends on the number of classes alloted. We make sure that an individual can learn effectively with all the available resources in an optimal time.Keeping in my mind the betterment of students and mentors we will divide the time in an efficient way."],
+         "context": [""]
+        },
+        {"tag": "monitor",
+         "patterns": ["Will you monitor each child individually?","Is there 1-1 interaction in the live classes","How can you treat mt child?","Is it necessary for a parent to sit aside the child during the courses?","Will it be one on one session or group classes?"],
+         "responses": ["We provide 1-1 interaction in the live classes.We do monitor kids individually.We teach in an interactive manner that a child need not be monitored by his/her parent."],
+         "context": [""]
+        },
+        {"tag": "eligible",
+         "patterns": ["I am a class 1 student.Can I join?","My kid is in grade 1,Can he/she join the course?",
+                     "I am a class 2 student.Can I join?","My kid is in grade 2,Can he/she join the course?",
+                      "I am a class 3 student.Can I join?","My kid is in grade 3,Can he/she join the course?",
+                      "I am a class 4 student.Can I join?","My kid is in grade 4,Can he/she join the course?",
+                      "I am a class 5 student.Can I join?","My kid is in grade 5,Can he/she join the course?",
+                      "I am a class 6 student.Can I join?","My kid is in grade 6,Can he/she join the course?",
+                      "I am a class 7 student.Can I join?","My kid is in grade 7,Can he/she join the course?",
+                      "I am a class 8 student.Can I join?","My kid is in grade 8,Can he/she join the course?",
+                      "I am a class 9 student.Can I join?","My kid is in grade 9,Can he/she join the course?",
+                      "I am a class 10 student.Can I join?","My kid is in grade 10,Can he/she join the course?",
+                      "I am a class 11 student.Can I join?","My kid is in grade 11,Can he/she join the course?",
+                      "I am a class 12 student.Can I join?","My kid is in grade 12,Can he/she join the course?",
+                      "I do not belong to India.I am a foreign student.Can I join the course?"],
+         "responses": ["yes,ofcourse."],
+         "context": [""]
+        },
+        {"tag": "specific_questions",
+         "patterns": ["Which course to develop a website?","My child wants to build a website.Which course is suitable?","How  to design a website?"],
+         "responses": ["WebDevelopment"],
+         "context": [""]
+        },
+        {"tag": "specific_questions1",
+         "patterns": ["Which course to develop a mobile app?","My child wants to build an app.Which course is suitable?","how to build  a mobile app?"],
+         "responses": ["MobileDevelopment"],
+         "context": [""]
+        },
+        {"tag": "specific_questions2",
+         "patterns": ["which course my child should learn if he/she wants to build a chatbot?","Which course is in trending?","which course for data science,deeplearning,machinelearning,robotics?"],
+         "responses": ["ArtificialIntelligence"],
+         "context": [""]
+        },
+        {"tag": "specific_questions3",
+         "patterns": ["Do you teach Python?","Do you teach java?","Do the faculty start the course from the basics?"],
+         "responses": ["yes"],
+         "context": [""]
+        },
+        {"tag": "specific_questions4",
+         "patterns": ["Which course to develop a gaming app?","My child wants to build a game.Which course is suitable?","my child loves mobile games.Which course do you suggest?"],
+         "responses": ["GameAppDevelopment"],
+         "context": [""]
+        },
+        {"tag": "specific_questions5",
+         "patterns": ["does my child get a certificate after the course completion?","Are any certificates provided?","are study materials provided?"],
+         "responses": ["Yes"],
+         "context": [""]
+        },
+        {"tag": "Company_details",
+         "patterns": ["Who is your founder?","When was your company started?","what is code karo yaaro?","where is main branch of code karo yaaro","company details"],
+         "responses": ["Manish Motghare founded Code Karo Yaaro in the year 2020. Code karo yaaro is Nagpur based company with a vision to make every child literate in computer science and to generate a caliber of coding to enhance life experience. We want to develop the thinking ability of every child, by advancing computer science with new technologies and supporting them for a bright future."],
+         "context": [""]
+        },
+        {
+         "tag": "missed_class",
+         "patterns": ["What to do if my kid miss a session for some personal reason?"],
+         "responses": ["No problem! But you should inform your instructor on time"],
+         "context": [""]
+        },
+        {
+         "tag": "payment_platforms",
+         "patterns": ["How can i do the payment?","Can i do payment digitally?","What payment options available","Payment options","can i pay fees in installments","Can I know the cost that we have pay per session?","Is EMI option available?","Can I pay in instalments?"],
+         "responses": ["You can pay digitally!! just dial +918010996763 for more information"],
+         "context": [""]
+        },
+        {
+         "tag": "mentors",
+         "patterns": ["Are the tutors highly qualified?","Can you tell me about mentors?"],
+         "responses": ["Our highly motivated team consists of highly experienced, knowledgeable intellectuals from the education and software industry with relevant experience of more than a decade.The ‘Code Karo Yaaro’, is mentored by the people who have wide experience in the software development and education industry."],
+         "context": [""]
+        },
+        {
+         "tag": "mulitple_courses",
+         "patterns": ["Can I join for multiple courses at a time?","My kid wants to join multiple course","Are the batch times flexible?"],
+         "responses": ["Yep! we will manage the classes after discussing with your designated instructor"],
+         "context": [""]
+        },
+        {
+         "tag": "coding_language",
+         "patterns": ["what is java/python/html/.....?","What are the different coding languages?"],
+         "responses": ["1. Top 3 programming languages for kids who are 7 years and above : (a) Scratch (b) Alice (c) Blocky  2. Top 3 programming languages for kids who are 10 years and above: (a) JavaScript (b) Java (c)HTML+CSS 3. Top 3 programming languages for kids who are 14 years and above: (a) Python (b) C++ (c) C#"],
+         "context": [""]
+        },
+        {
+         "tag": "prerequisite",
+         "patterns": ["Do my child have to be good at math to be a coder?","Do my child have to be good at english to be a coder?", " Is there any requirements to join this course?","What are accommodations for students with special needs or students learning English?"],
+         "responses": ["There are no prerequisites to join the course. Anyone can learn to code."],
+         "context": [""]
+        },
+        {
+         "tag": "cancelations-refunds",
+         "patterns": ["How to cancel the subscription?","Is there a refund if we cancel my existing pack?","How to cancel the subscription?","any refund if we leave the course midway?"," Cancel my subscription"],
+         "responses": ["You can call us on +91 8010996763 or you can drop a mail on info@codekaroyaaro.com"],
+         "context": [""]
+        }        
+    ]
+}
